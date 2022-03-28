@@ -1,0 +1,14 @@
+.bg-cstm {
+  background-color: #0073aa;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .pt-lg-5 {
+    padding-top: 4% !important;
+  }
+}
