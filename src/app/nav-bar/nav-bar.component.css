@@ -17,6 +17,9 @@ a {
   .col {
     padding-right: 0 !important;
   }
+  .offset-lg-1 {
+    margin-left: 13.8%;
+}
 }
 .row>*{
   padding-right: 0!important;
