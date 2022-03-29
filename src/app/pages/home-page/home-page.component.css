@@ -1,6 +1,10 @@
 @media (min-width: 992px) {
-  .p-lg-5 {
+  .p-lg-4 {
     padding: 0rem 15rem 0rem 15rem !important;
+  }
+
+  .p-lg-5 {
+    padding: 0rem 5rem 0rem 5rem !important;
   }
 
   .bg-cstm-2 {

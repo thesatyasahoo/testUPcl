@@ -1,8 +1,8 @@
-<div class="container">
-  <div class="row bg-cstm-2">
+<div class="container-fluid">
+  <div class="row p-lg-4">
     <div class="col">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
+        <div class="container bg-cstm-2">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,10 +32,10 @@
   </div>
   <div class="row mx-auto mt-3">
     <div class="col text-center">
-      <p><span class="text-muted">Welcome</span>&nbsp;<span>Mr.Gajendra Singh</span></p>
+      <p class="text-uppercase"><span class="text-muted">Welcome</span>&nbsp;<span class="text-muted" style="font-weight: bold; font-size: large;">Mr.Gajendra Singh</span></p>
     </div>
   </div>
-  <div class="row">
+  <div class="row p-lg-5">
     <div class="col table-responsive">
       <table class="table table-bordered border-success">
         <thead>
@@ -51,15 +51,15 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="text-center" *ngFor="let item of data">
-            <td>{{item.acc_no}}</td>
-            <td>{{item.serv_conn}}</td>
-            <td>{{item.name}}</td>
-            <td>{{item.addr}}</td>
-            <td>{{item.service_status}}</td>
-            <td>{{item.due_date}}</td>
-            <td>{{item.netPaybleAmount}}</td>
-            <td class="text-danger">{{item.paymentStatus}}</td>
+          <tr class="" *ngFor="let item of data">
+            <td class="text-primary text-center">{{item.acc_no}}</td>
+            <td class="text-uppercase text-center">{{item.serv_conn}}</td>
+            <td class="text-uppercase">{{item.name}}</td>
+            <td class="text-uppercase">{{item.addr}}</td>
+            <td class="text-center">{{item.service_status}}</td>
+            <td class="text-center">{{item.due_date}}</td>
+            <td class="text-end">{{item.netPaybleAmount}}</td>
+            <td class="text-danger text-center">{{item.paymentStatus}}</td>
           </tr>
         </tbody>
       </table>
