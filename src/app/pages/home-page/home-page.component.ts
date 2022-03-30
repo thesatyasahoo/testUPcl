@@ -89,12 +89,21 @@ export class HomePageComponent implements OnInit {
   
 
   slideChange() {
-    $('video').on('play', function (e) {
-      $("#myCarousel").carousel('pause');
-    });
-    $('video').on('stop pause ended', function (e) {
-      $("#myCarousel").carousel();
-    });
+    // $('video').on('play', function (e) {
+    //   $("#myCarousel").carousel('pause');
+    // });
+    // $('video').on('stop pause ended', function (e) {
+    //   $("#myCarousel").carousel();
+    // });
+    let counter = 1;
+    setInterval(() => {
+      let el:any = document.getElementById('radio' + counter);
+      el.checked=true;
+      counter++;
+      if(counter > 4) {
+        counter = 1;
+      }
+    },5000)
   }
 
 }

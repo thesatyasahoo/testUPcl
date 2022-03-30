@@ -26,8 +26,9 @@ a {
 }
 
 @media (max-width: 768px) {
-  .offset-lg-1 {
-    margin-left: auto;
+  .img-fluid{
+    width: 245px;
+    height: auto;
   }
 }
 
@@ -56,4 +57,8 @@ p {
 }
 .nav-link{
   font-weight: bold;
+}
+
+.dropdown > ul > li{
+  margin-bottom: 1rem;
 }
