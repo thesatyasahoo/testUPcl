@@ -1,170 +1,44 @@
-
-/* @media (min-width: 992px) {
-  .p-lg-4 {
-    padding: 0rem 15rem 0rem 15rem !important;
+@media (min-width: 1400px) {
+  .carousel-item img {
+    height: 21.6rem;
   }
-
-  .p-lg-5 {
-    padding: 0rem 5rem 0rem 5rem !important;
-  }
-
-  .bg-cstm-2 {
-    background-color: #c0c5ff;
-    color: black;
+  .card{
+    height: 8.7rem;
   }
 }
-.bg-cstm-1 {
-  background-color: #d1e4ee;
-}
 
-.font-cstm-2 {
-  color: #206283;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-} */
-
-
-
-/* .carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-  display: block;
-} */
-
-@media (max-width: 768px) {
+@media (min-width: 992px) {
   p {
     margin-top: 1rem;
   }
-  
-  .well.well-trans {
-    background-color: rgba(255, 255, 255, .8);
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: none;
-  }
-  
-  .well {
-    min-height: 20px;
-    padding: 19px;
-    margin-bottom: 20px;
-    background-color: #f5f5f5;
-    border: 1px solid #e3e3e3;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
-  }
-  
-  .slide1 {
-    height: 500px;
-    /* your desired height for this slide */
-    background: url("../../../assets/img/bg1.png") no-repeat center center;
-    background-size: cover;
-    position: relative;
-  }
-  
-  #myCarousel {
-    height: 300px;
-    margin-top: 0;
-  }
-  .carousel-item {
-    position: relative;
-    display: none;
-    float: left;
-    width: 100%;
-    margin-right: -100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transition: transform .6s ease-in-out;
-  }
-  
-  .carousel-inner1 {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: -webkit-box;
-  }
-  
-  .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: -webkit-box;
-  }
-  
-  .carousel-indicators {
-    position: absolute;
-    bottom: 0rem;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    padding-left: 0;
-    margin-left: -30%;
-    text-align: center;
-    list-style: none;
-  }
-  
-  .carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #fff;
-    border-radius: 10px;
-  }
-  .carousel-indicators {
-    bottom: -4rem;
-  }
-  .grid-item {
-    background-color: none;
-    padding: 8px;
-    font-size: 15px;
-    text-align: center;
-  }
-  
-  a {
-    color: black;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    text-decoration: none;
-    background-color: transparent;
-  }
-  
-  .circled {
-    border-radius: 50%;
-    display: inline-block;
-    color: #fff;
-    width: 1.6em;
-    height: 1.6em;
-    text-align: center;
-    line-height: 1.6em;
-  }
-}
 
-@media screen and (min-width: 992px) {
-  p {
-    margin-top: 1rem;
+  .card-title{
+    margin-top: 2rem;
   }
-  
-  .row{
+
+  .card{
+    height: 11.7rem;
+    width: 15rem;
+  }
+  .carousel-item img {
+    height: 19.6rem;
+  }
+
+  .carousel-item #img5 {
+    height: 21.4rem !important;
+  }
+
+  .row {
     margin-right: 0 !important;
   }
-  
+
   .well.well-trans {
     background-color: rgba(255, 255, 255, .8);
     -webkit-box-shadow: none;
     box-shadow: none;
     border: none;
   }
-  
+
   .well {
     min-height: 20px;
     padding: 19px;
@@ -175,7 +49,7 @@ a {
     -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
   }
-  
+
   .slide1 {
     height: 500px;
     /* your desired height for this slide */
@@ -183,25 +57,27 @@ a {
     background-size: cover;
     position: relative;
   }
-  
+
   #myCarousel {
     height: 300px;
     margin-top: 0;
   }
+
   .carousel .carousel-indicators button {
-  width: 10px;
-   height: 10px;
-   border-radius: 100%;
- }
-.carousel-indicators {
-   margin-bottom: 0;
-}
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0;
+  }
 
   /* .cstmRow {
     margin-right: 15rem !important;
     margin-left: 15rem !important;
   } */
-  
+
   .cstmCol {
     width: 25% !important;
     position: relative;
@@ -209,13 +85,14 @@ a {
     /* padding-right: 6rem;
     padding-left: 6rem; */
   }
+
   .grid-item {
     background-color: none;
     padding: 8px;
     font-size: 15px;
     text-align: center;
   }
-  
+
   a {
     color: black;
     -webkit-transition: all .2s ease-in-out;
@@ -224,7 +101,7 @@ a {
     text-decoration: none;
     background-color: transparent;
   }
-  
+
   .circled {
     border-radius: 50%;
     display: inline-block;
@@ -233,5 +110,104 @@ a {
     height: 1.6em;
     text-align: center;
     line-height: 1.6em;
+  }
+}
+
+@media (max-width: 576px) {
+
+  #carouselExampleCaptions {
+    margin-top: 1rem;
+  }
+
+  .carousel-item img,
+  .carousel-item #img5,
+  .carousel-item iframe {
+    height: 12rem !important;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  .row {
+    margin-right: 0 !important;
+  }
+
+  .well.well-trans {
+    background-color: rgba(255, 255, 255, .8);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+  }
+
+  .slide1 {
+    height: 500px;
+    /* your desired height for this slide */
+    background: url("../../../assets/img/bg1.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 0.5rem;
+  }
+  /* .cstmRow {
+    margin-right: 15rem !important;
+    margin-left: 15rem !important;
+  } */
+  .cstmCol {
+    width: 25% !important;
+    position: relative;
+    min-height: 1px;
+    /* padding-right: 6rem;
+    padding-left: 6rem; */
+  }
+
+  .grid-item {
+    background-color: none;
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  a {
+    color: black;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+  .circled {
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    width: 1.6em;
+    height: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+  }
+
+  .card {
+    margin: 0.7rem 3rem;
+    border-radius: 1.5rem;
   }
 }
