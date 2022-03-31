@@ -59,7 +59,7 @@ a {
   }
   
   .slide1 {
-    height: 500px;
+    height: 23.9rem;
     /* your desired height for this slide */
     background: url("../../../assets/img/bg1.png") no-repeat center center;
     background-size: cover;
@@ -177,7 +177,7 @@ a {
   }
   
   .slide1 {
-    height: 500px;
+    height: 23.9rem;
     /* your desired height for this slide */
     background: url("../../../assets/img/bg1.png") no-repeat center center;
     background-size: cover;
@@ -198,8 +198,8 @@ a {
 }
 
   .cstmRow {
-    margin-right: 20rem !important;
-    margin-left: 20rem !important;
+    margin-right: 13rem !important;
+    margin-left: 13rem !important;
   }
   
   .cstmCol {
@@ -234,4 +234,18 @@ a {
     text-align: center;
     line-height: 1.6em;
   }
+}
+
+carousel-item > img{
+  width: 100%;
+  height: 16.9rem !important;
+}
+
+carousel-item > iframe{
+  width: 100%;
+  height: 16.9rem !important;
+}
+
+*{
+  font-size: 0.7rem;
 }

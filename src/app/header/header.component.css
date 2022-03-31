@@ -7,49 +7,15 @@ a {
   text-decoration: none;
 }
 
-@media (min-width: 992px) {
-  .pt-lg-5 {
-    padding-top: 1% !important;
-  }
-
-  .row {
-    margin-right: 0 !important;
-  }
-
-  .col {
-    padding-right: 0 !important;
-  }
-
-  .offset-lg-1 {
-    margin-left: 13.8%;
-  }
-}
-
-@media (max-width: 768px) {
-  .img-fluid{
-    width: 245px;
-    height: auto;
-  }
+.img-fluid{
+  width: 13rem;
+  height: auto;
 }
 
 @media (max-width: 576px) {
   .cstm-block-inline {
     display: inline-block;
   }
-}
-
-.row>* {
-  padding-right: 0 !important;
-}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  margin-top: .1rem;
-  margin-bottom: 0.1rem;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-p {
-  margin: 0.2rem;
 }
 
 .mySlides1{
@@ -60,5 +26,22 @@ p {
 }
 
 .dropdown > ul > li{
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+*{
+  font-size: 0.7rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: .15rem .20rem;
+  font-size: .75em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
 }
