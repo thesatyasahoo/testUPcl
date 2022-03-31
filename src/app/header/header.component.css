@@ -2,12 +2,24 @@
   background-color: #0073aa;
   color: white;
 }
-
-a {
-  text-decoration: none;
+@media (min-width: 1200px) {
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 992px) {
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+  }
   .pt-lg-5 {
     padding-top: 1% !important;
   }
@@ -25,9 +37,13 @@ a {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  a {
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
   .img-fluid{
-    width: 245px;
+    width: 14rem;
     height: auto;
   }
 }

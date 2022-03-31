@@ -197,10 +197,10 @@ a {
    margin-bottom: 0;
 }
 
-  .cstmRow {
-    margin-right: 20rem !important;
-    margin-left: 20rem !important;
-  }
+  /* .cstmRow {
+    margin-right: 15rem !important;
+    margin-left: 15rem !important;
+  } */
   
   .cstmCol {
     width: 25% !important;
