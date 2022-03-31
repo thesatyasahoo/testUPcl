@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import $ from "jquery";
 
 @Component({
   selector: 'app-home-page',
@@ -84,17 +83,6 @@ export class HomePageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.slideChange();
-  }
-  
-
-  slideChange() {
-    $('video').on('play', function (e) {
-      $("#myCarousel").carousel('pause');
-    });
-    $('video').on('stop pause ended', function (e) {
-      $("#myCarousel").carousel();
-    });
   }
 
 }

@@ -1,18 +1,15 @@
 <div class="row bg-cstm">
   <div class="col-lg-2"></div>
-  <div class="col-lg-5 col-12">
+  <div class="col-lg-5 col-sm-12">
     <marquee>
       <p class="bold"><span class="badge red"
           style="background-color: red; font-family:'Times New Roman', Times, serif, sans-serif;">New</span> Consumers
         are required to deposit the exact bill amount in UPCL Central account of HDFC through Virtual Account Number
-        through RTGS/NEFT mode to get the timely credit of payment. <a href="https://www.upcl.org/rtgs-hdfc/"
+        through RTGS/NEFT mode to get the timely credit of payment. <a href="#"
           target="__blank" style="color:white;text-decoration: underline;">Click Here for more details</a>.</p>
     </marquee>
   </div>
-  <!-- <div class="">
-    <h6 class="mt-2 offset-1">General Complaint: Customercare@Upcl.Org</h6>
-  </div> -->
-  <div class="col-lg-3 col-12">
+  <div class="col-lg-3 col-sm-12">
     <p class="mySlides1 bold text-right lnr lnr-phone-handset" id="myslides1" style="display: block;">Help Line Number :
       1912 (Call Us)</p>
     <p class="mySlides1 bold text-right lnr lnr-phone-handset" id="myslides1" style="display: none;">Help Line Toll Free
@@ -25,63 +22,95 @@
   </div>
 
 </div>
-<div class="row" style="margin-right: 0% !important;">
-  <div class="col pr-0 mr-0">
+<div class="row">
+  <div class="col">
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm bg-white rounded">
       <div class="container-fluid">
         <img class="navbar-brand img-fluid offset-lg-1" src="../../assets/img/logo.png">
-        <button class="navbar-toggler mt-3" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse pt-lg-5" id="navbarSupportedContent">
           <ul class="navbar-nav border-bottom cstm-block-inline">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" [routerLink]="['']" routerLinkActive="router-link-active" >Home Page</a>
+              <a class="nav-link active" aria-current="page" [routerLink]="['']"
+                routerLinkActive="router-link-active">Home Page</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" [routerLink]="['']" routerLinkActive="router-link-active"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 New Connection Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">New Electricty
+                    Connection Registration</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Before You apply
+                    for New Electricty Connection</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">New Connection
+                    Status</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">New Connection
+                    Charges</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Fixed Cost
+                    Estimation Calculator</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Load
+                    Calculator</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" [routerLink]="['']" routerLinkActive="router-link-active"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Online Payment Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">View
+                    Bill/Payment</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Bill Payment
+                    Receipt</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">New Connection
+                    Payment</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">View NSC Payment
+                    Receipt</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Other
+                    Miscellaneous Payment</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">View Other Misc
+                    Payment Receipt</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" [routerLink]="['']" routerLinkActive="router-link-active"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Complaint/Request Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Complaint
+                    Registration</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Service Request
+                    Registration</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Complaint
+                    Status</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">complaint
+                    handling procedure</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Complaint
+                    Redressal Forum</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" [routerLink]="['']" routerLinkActive="router-link-active"
+                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Support Services
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Register for Bill
+                    Alerts</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Mobile App
+                    Download</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">SMS Services</a>
+                </li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Form
+                    Downloads</a></li>
+                <li><a class="dropdown-item" [routerLink]="['']" routerLinkActive="router-link-active">Self Service
+                    FAQs</a></li>
               </ul>
             </li>
           </ul>
