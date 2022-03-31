@@ -53,10 +53,10 @@
 
 .float{
 	position:fixed;
-	width:4rem;
-	height:4rem;
-	bottom:4rem;
-	left:3rem;
+	width:2.5rem;
+	height:2.5rem;
+	bottom:1rem;
+	left:1rem;
 	background-color:rgb(243, 119, 3);
 	color:#FFF;
 	border-radius:40px;
@@ -70,7 +70,7 @@ a.scrollup {
 .scrollup {
     position: fixed;
     width: 32px;
-    height: 32px;
+    height: 25px;
     bottom: 0px;
     right: 20px;
     background: #222;
